@@ -9,53 +9,65 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="container portfolio-container">
-        <article className='portfolio-container'>
-           <div className="portfolio-img">
+        <article className='portfolio-item'>
+          <div className="portfolio-img">
             <img src={portfolio} alt="img" />
-           </div>
-           <h3>This is portfolio</h3>
+          </div>
+          <h3>This is portfolio</h3>
+          <div className="portfolio-btns">
             <a href="" className='btn' target='_blank'>Github</a>
             <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
-        <article className='portfolio-container'>
-           <div className="portfolio-img">
+        <article className='portfolio-item'>
+          <div className="portfolio-img">
             <img src={portfolio} alt="img" />
-           </div>
-           <h3>This is portfolio</h3>
+          </div>
+          <h3>This is portfolio</h3>
+          <div className="portfolio-btns">
             <a href="" className='btn' target='_blank'>Github</a>
             <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
-        <article className='portfolio-container'>
-           <div className="portfolio-img">
+        <article className='portfolio-item'>
+          <div className="portfolio-img">
             <img src={portfolio} alt="img" />
-           </div>
-           <h3>This is portfolio</h3>
+          </div>
+          <h3>This is portfolio</h3>
+          <div className="portfolio-btns">
             <a href="" className='btn' target='_blank'>Github</a>
             <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
-        <article className='portfolio-container'>
-           <div className="portfolio-img">
+        <article className='portfolio-item'>
+          <div className="portfolio-img">
             <img src={portfolio} alt="img" />
-           </div>
-           <h3>This is portfolio</h3>
+          </div>
+          <h3>This is portfolio</h3>
+          <div className="portfolio-btns">
             <a href="" className='btn' target='_blank'>Github</a>
             <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
-        <article className='portfolio-container'>
-           <div className="portfolio-img">
+        <article className='portfolio-item'>
+          <div className="portfolio-img">
             <img src={portfolio} alt="img" />
-           </div>
-           <h3>This is portfolio</h3>
+          </div>
+          <h3>This is portfolio</h3>
+          <div className="portfolio-btns">
             <a href="" className='btn' target='_blank'>Github</a>
             <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
-        <article className='portfolio-container'>
-           <div className="portfolio-img">
+        <article className='portfolio-item'>
+          <div className="portfolio-img">
             <img src={portfolio} alt="img" />
-           </div>
-           <h3>This is portfolio</h3>
+          </div>
+          <h3>This is portfolio</h3>
+          <div className="portfolio-btns">
             <a href="" className='btn' target='_blank'>Github</a>
             <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
       </div>
     </section>
