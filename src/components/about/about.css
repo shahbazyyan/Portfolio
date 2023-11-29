@@ -1,0 +1,36 @@
+.about-container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 16%;
+}
+
+.about-me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary, transparent));
+    display: grid;
+    place-items: centre;
+}
+
+.about-me-img {
+    overflow: hidden;
+    border-radius: 2rem;
+    transform: rotate(10deg);
+    transition: .4s;
+}
+
+.about-me-img:hover {
+    transform: rotate(0deg);
+}
+
+
+.about_cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.about_card {
+    background: var(--color-bg-variant);
+}
