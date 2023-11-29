@@ -20,24 +20,25 @@ function About() {
         <div className="about-content">
           <div className="about_cards">
             <article className='about-card'>
-              <FaAward className='about-icon'/>
+              <FaAward className='about-icon' />
               <h5>Experience</h5>
               <small>1+ year Years Working</small>
             </article>
             <article className='about-card'>
-              <FaUsers className='about-icon'/>
+              <FaUsers className='about-icon' />
               <h5>Clients</h5>
               <small>200+</small>
             </article>
             <article className='about-card'>
-              <HiOutlineBriefcase className='about-icon'/>
+              <HiOutlineBriefcase className='about-icon' />
               <h5>Projects</h5>
               <small>10+</small>
             </article>
           </div>
 
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perferendis odio consequatur consequuntur voluptate deleniti voluptatibus impedit laboriosam. Amet quisquam saepe commodi, illo reiciendis facere doloremque veniam ab tempore? Nostrum, voluptatem!</p>
-           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse sint placeat sapiente aperiam laudantium eligendi molestiae laboriosam inventore corporis aut!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perferendis odio consequatur consequuntur voluptate deleniti voluptatibus impedit laboriosam. Amet quisquam saepe commodi, illo reiciendis facere doloremque veniam ab tempore? Nostrum, voluptatem!</p>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
         </div>
       </div>
