@@ -40,6 +40,8 @@
 .contact-option h5 {
     font-size: 1.2rem;
     color: var(--color-light);
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 form {

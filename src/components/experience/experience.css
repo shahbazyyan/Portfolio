@@ -38,6 +38,8 @@
     margin-top: 6px;
     color: var(--color-primary);
     font-size: 23px;
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -66,4 +68,76 @@
         width: 100%;
         padding: 1rem 2rem;
     }
+}
+
+.prcent-div {
+    width: 120px;
+    height: 13px;
+    border: 1px solid gray;
+}
+
+.prcent.js{
+    background: var(--color-primary);
+    height: 100%;
+    width: 110px;
+}
+
+.prcent.ts{
+    background: var(--color-primary);
+    height: 100%;
+    width: 100px;
+}
+
+.prcent.react{
+    background: var(--color-primary);
+    height: 100%;
+    width: 85px;
+}
+
+.prcent.html{
+    background: var(--color-primary);
+    height: 100%;
+    width: 110px;
+}
+
+.prcent.css{
+    background: var(--color-primary);
+    height: 100%;
+    width: 100px;
+}
+
+.prcent.scss{
+    background: var(--color-primary);
+    height: 100%;
+    width: 90px;
+}
+
+.prcent.tailwind{
+    background: var(--color-primary);
+    height: 100%;
+    width: 70px;
+}
+
+.prcent.jquery{
+    background: var(--color-primary);
+    height: 100%;
+    width: 50px;
+}
+
+.prcent.npm{
+    background: var(--color-primary);
+    height: 100%;
+    width: 110px;
+}
+
+.prcent.bootstrap{
+    background: var(--color-primary);
+    height: 100%;
+    width: 60px;
+}
+
+.prcent.api{
+    background: var(--color-primary);
+    height: 100%;
+    width: 90px;
 }

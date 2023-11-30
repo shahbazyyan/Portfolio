@@ -1,6 +1,13 @@
 import React from 'react';
 import './experience.css';
-import { BsPatchCheckFill } from 'react-icons/bs';
+import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io5";
+import { BiLogoTypescript, BiLogoJquery } from "react-icons/bi";
+import { FaReact, FaHtml5} from "react-icons/fa";
+import { BsFiletypeScss, BsBootstrap } from "react-icons/bs";
+import {  SiTailwindcss, SiNpm, SiFastapi } from "react-icons/si";
+import jquery from '../../assets/free-jquery-8-1175153.webp'
+
+
 
 function Experience() {
   return (
@@ -13,81 +20,115 @@ function Experience() {
           <h3>FrontEnd Development</h3>
           <div className="experience_content">
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon" />
+              <IoLogoJavascript className="details-icon" />
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent js"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <BiLogoTypescript className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>TypeScript</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent ts"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <FaReact className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>React</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent react"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <FaHtml5 className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>HTML 5</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent html"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <IoLogoCss3 className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>CSS</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent css"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <BsFiletypeScss className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>SCSS</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent scss"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <SiTailwindcss className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>TAILWIND</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent tailwind"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <BiLogoJquery className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>jQuery</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent jquery"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <SiNpm className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>NPM</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent npm"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <BsBootstrap className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>Bootstrap</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent bootstrap"></div>
+                </div>
               </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill className="details-icon"/>
+              <SiFastapi className="details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>API's</h4>
                 <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent api"></div>
+                </div>
               </div>
+             
             </article>
           </div>
         </div>
