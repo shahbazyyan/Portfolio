@@ -1,7 +1,7 @@
 .about-container {
     display: grid;
-    grid-template-columns: 35% 65%;
-    gap: 14%;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
 }
 
 .about-me {
@@ -10,12 +10,12 @@
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary, transparent));
     display: grid;
-    place-items: centre;
+    /* place-items: center; */
 }
 
 .about-me-img {
-    overflow: hidden;
     border-radius: 2rem;
+    overflow: hidden;
     transform: rotate(10deg);
     transition: .4s;
 }
@@ -69,51 +69,6 @@
 
 /* RESPONSIVE CSS */
 
-@media screen and (max-width: 600px) {
-    .about-me {
-        width: 65%;
-    }
-
-    .about-cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
-        gap: 1rem; 
-    }
-
-    .about-card {
-        border-radius: 1rem; 
-        padding: 1rem; 
-        text-align: center;
-        transition: var(--transition);
-        cursor: pointer;
-        margin-bottom: 1rem; 
-    }
-
-    .about-card:hover {
-        background: transparent;
-        border-color: var(--color-primary-variant);
-    }
-
-    .about-icon {
-        font-size: 1.2rem; 
-        margin-bottom: 0.5rem;
-    }
-
-    .about-card h5 {
-        font-size: 0.9rem; 
-    }
-
-    .about-card small {
-        font-size: 0.7rem;
-        color: var(--color-light);
-    }
-
-    .about-content p {
-        margin: 2rem 0; 
-        color: var(--color-white);
-    }
-}
-
 
 @media screen and (max-width: 1024px) {
     .about-container {
@@ -129,7 +84,27 @@
     .about-content p {
         margin: 1rem 0 1.5rem;
     }
-
-  
 }
+
+
+@media screen and (max-width: 600px) {
+    .about-me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about_cards {
+        grid-template-columns: 1fr 1fr; 
+        gap: 1rem; 
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content p {
+        margin: 1.5rem 0; 
+    }
+}
+
 

@@ -13,7 +13,6 @@ function Contact() {
       <h2>Contact Me</h2>
 
       <div className="container contact-container">
-      
         <div className="contact-options">
           <article className="contact-option">
             <MdEmail className='contact-icon'/>
@@ -35,7 +34,7 @@ function Contact() {
           </article>
         </div>
 
-        <form className='contact_form' action='https://formspree.io/f/mwkddwnn' method="POST">
+        <form action='https://formspree.io/f/mwkddwnn' method="POST">
            <input type="text" name='name' placeholder='Your Full Name'  required/>
            <input type="email" name='email' placeholder='Your Emai' required />
            <textarea name="message" rows="7" placeholder='Your Message' required></textarea>

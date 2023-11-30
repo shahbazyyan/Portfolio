@@ -4,8 +4,9 @@ import {AiFillFacebook, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 
 function Footer() {
   return (
-    <footer class="footer">
+    <footer>
     <div class="container footer_container">
+
        <div class="footer_1">
          <a href="#" class="footer_logo"><h4>David</h4></a>
          <p>Thank you for visiting my portfolio! I hope you've enjoyed exploring my work. I'm always eager to take on new projects and collaborate. If you're interested in working together or have any opportunities available, I'd love to hear from you. Feel free to reach out!</p>
