@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import me from '../../assets/me.jpeg';
-import { FaAward, FaUsers } from 'react-icons/fa';
+import me from '../../assets/me-removebg-preview-removebg-preview.jpg';
+import { FaAward, FaBookOpen, FaGamepad } from 'react-icons/fa';
 import { HiOutlineBriefcase } from "react-icons/hi";
 
 
@@ -22,22 +22,26 @@ function About() {
             <article className='about-card'>
               <FaAward className='about-icon' />
               <h5>Experience</h5>
-              <small>1+ year Years Working</small>
+              <small>1 year working in IT Company</small>
             </article>
             <article className='about-card'>
-              <FaUsers className='about-icon' />
-              <h5>Clients</h5>
-              <small>200+</small>
+              <FaBookOpen className='about-icon' />
+              <h5>Study</h5>
+              <small>1+ year Studying</small>
             </article>
             <article className='about-card'>
               <HiOutlineBriefcase className='about-icon' />
               <h5>Projects</h5>
-              <small>10+</small>
+              <small>20+ Projects</small>
+            </article>
+            <article className='about-card'>
+              <FaGamepad className='about-icon' />
+              <h5>Games</h5>
+              <small>10+ Games Created</small>
             </article>
           </div>
-
-          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse sint placeat sapiente aperiam laudantium eligendi molestiae laboriosam inventore corporis aut!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perferendis odio consequatur consequuntur voluptate deleniti voluptatibus impedit laboriosam. Amet quisquam saepe commodi, illo reiciendis facere doloremque veniam ab tempore? Nostrum, voluptatem!</p>
+          <p> Thanks to my diligence and determination, I've successfully crafted various websites and games that showcase my adeptness in this field. Engaging in programming for approximately a year, my fascination began on day one and has since become an inseparable part of my life—codes and algorithms now feel like second nature to me.
+          At this juncture, I'm actively seeking a job opportunity where I can exhibit my finest qualities and foster the continuous growth of my knowledge. I eagerly anticipate and welcome any suggestions that come my way.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
         </div>

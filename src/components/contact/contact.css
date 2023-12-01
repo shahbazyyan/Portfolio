@@ -61,6 +61,15 @@ textarea {
     color: #fff;
 }
 
+.scroll-up {
+    position: relative;
+    bottom: 8rem;
+    font-weight: 300;
+    font-size: 1rem;
+    transform: rotate(360deg) translateX(50%);
+    transform-origin: bottom left;
+    writing-mode: vertical-lr; 
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -73,6 +82,9 @@ textarea {
 @media screen and (max-width: 600px) {
     .container.contact-container {
         width: var(--container-width-sm);
+    }
+    .scroll-up {
+        display: none;
     }
 }
 

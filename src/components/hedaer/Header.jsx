@@ -7,19 +7,19 @@ import ScrollReveal from 'scrollreveal';
 
 function Header() {
   const sr = ScrollReveal({
-    distance: '60px',
+    distance: '70px',
     duration: 2500,
     delay: 500,
     reset: true
   });
 
   sr.reveal(".texts", {
-    delay: 500,
+    delay: 600,
     origin: 'top',
   });
 
   return (
-    <header>
+    <header id="header">
       <div className="container header-container">
         <div className="texts">
           <h5>Hello I'm</h5>
@@ -32,7 +32,6 @@ function Header() {
         <div className="me">
           <img src={me} alt="" />
         </div>
-
         <a href="#contact" className='scroll-down'>Scroll Down</a>
       </div>
     </header>

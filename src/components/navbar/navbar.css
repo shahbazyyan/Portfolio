@@ -1,16 +1,20 @@
 nav {
     position: fixed;
     background: rgba(0, 0, 0, .3);
-    padding: .7rem 1.7rem;
+    padding: .9rem 1.9rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: .8rem;
     border-radius: 3rem;
     backdrop-filter: blur(1rem);
     bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: fit-content; 
     z-index: 2;
+    cursor: grabbing;
 }
 
 nav a {

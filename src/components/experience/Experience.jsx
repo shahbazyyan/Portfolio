@@ -4,8 +4,7 @@ import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io5";
 import { BiLogoTypescript, BiLogoJquery } from "react-icons/bi";
 import { FaReact, FaHtml5} from "react-icons/fa";
 import { BsFiletypeScss, BsBootstrap } from "react-icons/bs";
-import {  SiTailwindcss, SiNpm, SiFastapi } from "react-icons/si";
-import jquery from '../../assets/free-jquery-8-1175153.webp'
+import {  SiTailwindcss, SiNpm, SiFastapi, SiWebpack } from "react-icons/si";
 
 
 
@@ -43,7 +42,7 @@ function Experience() {
               <FaReact className="details-icon"/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
                 <div className="prcent-div">
                 <div className="prcent react"></div>
                 </div>
@@ -73,7 +72,7 @@ function Experience() {
               <BsFiletypeScss className="details-icon"/>
               <div>
                 <h4>SCSS</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
                 <div className="prcent-div">
                 <div className="prcent scss"></div>
                 </div>
@@ -83,7 +82,7 @@ function Experience() {
               <SiTailwindcss className="details-icon"/>
               <div>
                 <h4>TAILWIND</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Beginner</small>
                 <div className="prcent-div">
                 <div className="prcent tailwind"></div>
                 </div>
@@ -93,7 +92,7 @@ function Experience() {
               <BiLogoJquery className="details-icon"/>
               <div>
                 <h4>jQuery</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Beginner</small>
                 <div className="prcent-div">
                 <div className="prcent jquery"></div>
                 </div>
@@ -113,7 +112,7 @@ function Experience() {
               <BsBootstrap className="details-icon"/>
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
                 <div className="prcent-div">
                 <div className="prcent bootstrap"></div>
                 </div>
@@ -128,7 +127,16 @@ function Experience() {
                 <div className="prcent api"></div>
                 </div>
               </div>
-             
+            </article>
+            <article className='experience-details'>
+              <SiWebpack className="details-icon"/>
+              <div>
+                <h4>Webpack</h4>
+                <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent webpack"></div>
+                </div>
+              </div>
             </article>
           </div>
         </div>
