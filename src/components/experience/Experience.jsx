@@ -4,7 +4,7 @@ import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io5";
 import { BiLogoTypescript, BiLogoJquery } from "react-icons/bi";
 import { FaReact, FaHtml5} from "react-icons/fa";
 import { BsFiletypeScss, BsBootstrap } from "react-icons/bs";
-import {  SiTailwindcss, SiNpm, SiFastapi, SiWebpack } from "react-icons/si";
+import {  SiTailwindcss, SiNpm, SiFastapi, SiWebpack, SiBabel, SiLinux, SiGit, SiGithub } from "react-icons/si";
 
 
 
@@ -135,6 +135,46 @@ function Experience() {
                 <small className='text-light'>Experienced</small>
                 <div className="prcent-div">
                 <div className="prcent webpack"></div>
+                </div>
+              </div>
+            </article>
+            <article className='experience-details'>
+              <SiGit className="details-icon"/>
+              <div>
+                <h4>Git</h4>
+                <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent git"></div>
+                </div>
+              </div>
+            </article>
+            <article className='experience-details'>
+              <SiGithub className="details-icon"/>
+              <div>
+                <h4>GitHub</h4>
+                <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent github"></div>
+                </div>
+              </div>
+            </article>
+            <article className='experience-details'>
+              <SiBabel className="details-icon"/>
+              <div>
+                <h4>Babel</h4>
+                <small className='text-light'>Experienced</small>
+                <div className="prcent-div">
+                <div className="prcent babel"></div>
+                </div>
+              </div>
+            </article>
+            <article className='experience-details'>
+              <SiLinux className="details-icon"/>
+              <div>
+                <h4>Linux</h4>
+                <small className='text-light'>Intermediate</small>
+                <div className="prcent-div">
+                <div className="prcent linux"></div>
                 </div>
               </div>
             </article>

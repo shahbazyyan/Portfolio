@@ -147,3 +147,21 @@
     height: 100%;
     width: 100px;
 }
+
+.git, .github {
+    background: var(--color-primary);
+    height: 100%;
+    width: 108px;
+}
+
+.babel {
+    background: var(--color-primary);
+    height: 100%;
+    width: 86px;
+}
+
+.linux {
+    background: var(--color-primary);
+    height: 100%;
+    width: 66px;
+}
