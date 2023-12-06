@@ -1,47 +1,68 @@
-import image from './assets/portfolio.jpg';
+import homerent from './assets/homerent.png';
+import dashboard from './assets/admindashboard.png';
+import weather from './assets/weatherapp.png';
+import edu from './assets/educetional.png';
+import car from './assets/car.png';
+import shop from './assets/e-comerical.png';
+import wordgame from './assets/wordgame.png';
+import memorygame from './assets/memory.png';
 
 const dataPortfolio = [
   {
     id: 1,
-    img: image,
-    title: "React Admin Dashboard",
-    github: "https://github.com/shahbazyyan",
-    demo: "https://github.com/shahbazyyan"
+    img: homerent,
+    title: "Home Rent Website",
+    github: "https://github.com/shahbazyyan/React-home-rent-app",
+    demo: "https://react-home-rent-app.vercel.app/"
   },
   {
     id: 2,
-    img: image,
+    img: dashboard,
     title: "React Admin Dashboard",
-    github: "https://github.com/shahbazyyan",
-    demo: "https://github.com/shahbazyyan"
+    github: "https://github.com/shahbazyyan/React_admin_dashboard",
+    demo: "https://react-admin-dashboard-inky.vercel.app/"
   },
   {
     id: 3,
-    img: image,
-    title: "React Admin Dashboard",
-    github: "https://github.com/shahbazyyan",
-    demo: "https://github.com/shahbazyyan"
+    img: weather,
+    title: "Weather App",
+    github: "https://github.com/shahbazyyan/Weather_app",
+    demo: "https://weather-app-kappa-tan.vercel.app/"
   },
   {
     id: 4,
-    img: image,
-    title: "React Admin Dashboard",
-    github: "https://github.com/shahbazyyan",
-    demo: "https://github.com/shahbazyyan"
+    img: edu,
+    title: "Educetional Website",
+    github: "https://github.com/shahbazyyan/Educetional-website",
+    demo: "https://educetional-website.vercel.app/"
   },
   {
     id: 5,
-    img: image,
-    title: "React Admin Dashboard",
-    github: "https://github.com/shahbazyyan",
-    demo: "https://github.com/shahbazyyan"
+    img: car,
+    title: "Car Rent Website",
+    github: "https://github.com/shahbazyyan/car_rent",
+    demo: "https://car-rent-plum.vercel.app/"
   },
   {
     id: 6,
-    img: image,
-    title: "React Admin Dashboard",
-    github: "https://github.com/shahbazyyan",
-    demo: "https://github.com/shahbazyyan"
+    img: shop,
+    title: "E-Commerical Website",
+    github: "https://github.com/shahbazyyan/React-Shop-E-commercial--app",
+    demo: "https://react-shop-e-commercial-app.vercel.app/"
+  },
+  {
+    id: 7,
+    img: wordgame,
+    title: "Words Game",
+    github: "https://github.com/shahbazyyan/word_game",
+    demo: "https://word-game-three.vercel.app/"
+  },
+  {
+    id: 8,
+    img: memorygame,
+    title: "Memory Game",
+    github: "https://github.com/shahbazyyan/Memory_game",
+    demo: "https://memory-game-green-five.vercel.app/"
   }
 ];
 

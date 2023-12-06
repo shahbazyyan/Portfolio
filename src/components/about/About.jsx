@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import me from '../../assets/me.png';
+import me from '../../assets/me.jpeg';
 import { FaAward, FaBookOpen, FaGamepad } from 'react-icons/fa';
 import { HiOutlineBriefcase } from "react-icons/hi";
 

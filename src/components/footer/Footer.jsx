@@ -25,7 +25,6 @@ function Footer() {
        <div className="footer_3">
            <h4>Take a Look</h4>
            <ul className="primacy">
-               <li><a href="#">View Certificate</a></li>
                <li><a href="#">Download CV</a></li>
                <li><a href="#contact">Ask a Question</a></li>
            </ul>
