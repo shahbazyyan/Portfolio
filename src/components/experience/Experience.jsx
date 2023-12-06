@@ -4,7 +4,7 @@ import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io5";
 import { BiLogoTypescript, BiLogoJquery } from "react-icons/bi";
 import { FaReact, FaHtml5} from "react-icons/fa";
 import { BsFiletypeScss, BsBootstrap } from "react-icons/bs";
-import {  SiTailwindcss, SiNpm, SiFastapi, SiWebpack, SiBabel, SiLinux, SiGit, SiGithub } from "react-icons/si";
+import {  SiTailwindcss ,SiNpm, SiFastapi, SiWebpack, SiBabel, SiLinux, SiGit, SiGithub } from "react-icons/si";
 
 
 
