@@ -6,6 +6,7 @@ import car from './assets/car.png';
 import shop from './assets/e-comerical.png';
 import wordgame from './assets/wordgame.png';
 import memorygame from './assets/memory.png';
+import movie from './assets/movie.png';
 
 const dataPortfolio = [
   {
@@ -24,10 +25,10 @@ const dataPortfolio = [
   },
   {
     id: 3,
-    img: weather,
-    title: "Weather App",
-    github: "https://github.com/shahbazyyan/Weather_app",
-    demo: "https://weather-app-kappa-tan.vercel.app/"
+    img: movie,
+    title: "Movie Website",
+    github: "https://github.com/shahbazyyan/Movie-Website",
+    demo: "https://movie-website-snowy.vercel.app/index.html"
   },
   {
     id: 4,
@@ -63,7 +64,16 @@ const dataPortfolio = [
     title: "Memory Game",
     github: "https://github.com/shahbazyyan/Memory_game",
     demo: "https://memory-game-green-five.vercel.app/"
-  }
+  },
+  {
+    id: 9,
+    img: weather,
+    title: "Weather App",
+    github: "https://github.com/shahbazyyan/Weather_app",
+    demo: "https://weather-app-kappa-tan.vercel.app/"
+  },
+  
+  
 ];
 
 export default dataPortfolio;
