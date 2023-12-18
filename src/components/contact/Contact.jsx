@@ -25,8 +25,8 @@ function Contact() {
           <article className="contact-option">
             <MdEmail className='contact-icon' />
             <h4>Email</h4>
-            <h5>davit.shahbazian@gmail.com</h5>
-            <a href="mailto:davit.shahbazian@gmail.com" target='_blank'>Send a massage</a>
+            <h5>shahbazyan.work@gmail.com</h5>
+            <a href="mailto:shahbazyan.work@gmail.com" target='_blank'>Send a massage</a>
           </article>
           <article className="contact-option">
             <FaTelegram className='contact-icon' />
@@ -42,7 +42,7 @@ function Contact() {
           </article>
         </div>
 
-        <form action='https://formspree.io/f/mwkddwnn' method="POST" onSubmit={handleSubmit} ref={formRef}>
+        <form action='https://formspree.io/f/xayrweeb' method="POST" onSubmit={handleSubmit} ref={formRef}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Emai' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
