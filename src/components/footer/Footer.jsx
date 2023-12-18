@@ -35,7 +35,7 @@ function Footer() {
            <div>
                <p>+37498464843</p>
                <p>+37441960037</p>
-               <p>davit.shahbazyan.m@gmail.com</p>
+               <p>shahbazyan.work@gmail.com</p>
            </div>
            <ul className="footer_sm">
                <a href='https://github.com/shahbazyyan' target='_blank'><AiFillGithub/></a>
