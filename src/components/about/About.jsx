@@ -3,6 +3,7 @@ import './about.css';
 import me from '../../assets/me.jpeg';
 import { FaAward, FaBookOpen, FaGamepad } from 'react-icons/fa';
 import { HiOutlineBriefcase } from "react-icons/hi";
+import {AiOutlineMonitor} from 'react-icons/ai'
 
 
 function About() {
@@ -38,6 +39,11 @@ function About() {
               <FaGamepad className='about-icon' />
               <h5>Games</h5>
               <small>10+ Games Created</small>
+            </article>
+            <article className='about-card'>
+              <AiOutlineMonitor className='about-icon' />
+              <h5>IT  Trainer</h5>
+              <small>HTML, CSS, JavaScript</small>
             </article>
           </div>
           <p> Thanks to my diligence and determination, I've successfully crafted various websites and games that showcase my adeptness in this field. Engaging in programming for approximately a year, my fascination began on day one and has since become an inseparable part of my life—codes and algorithms now feel like second nature to me.
