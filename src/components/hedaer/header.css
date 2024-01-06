@@ -76,6 +76,7 @@ header {
    header {
     height: 120vh;
    }
+   
    .header-sm, .scroll-down {
      display: none;
    }
