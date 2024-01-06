@@ -1,6 +1,8 @@
 import React from 'react';
 import './footer.css';
-import {AiFillFacebook, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+import {AiFillFacebook, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
+import CV from '../../assets/David Shahbazyan.pdf';
+
 
 function Footer() {
   return (
@@ -9,7 +11,7 @@ function Footer() {
 
        <div className="footer_1">
          <a href="#" className="footer_logo"><h4>David</h4></a>
-         <p>Thank you for visiting my portfolio! I hope you've enjoyed exploring my work. I'm always eager to take on new projects and collaborate. If you're interested in working together or have any opportunities available, I'd love to hear from you. Feel free to reach out!</p>
+         <p>Thank you for visiting my portfolio! I hope you've enjoyed exploring my work. I always eager to take on new projects and collaborate. If you're interested in working together or have any opportunities available, I'd love to hear from you. Feel free to reach out!</p>
        </div>
 
        <div className="footer_2">
@@ -25,7 +27,7 @@ function Footer() {
        <div className="footer_3">
            <h4>Take a Look</h4>
            <ul className="primacy">
-               <li><a href="#">Download CV</a></li>
+               <li><a download href={CV}>Download CV</a></li>
                <li><a href="#contact">Ask a Question</a></li>
            </ul>
        </div>
