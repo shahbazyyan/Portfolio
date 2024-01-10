@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 import {AiFillFacebook, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
-import CV from '../../assets/David Shahbazyan.pdf';
+import CV from '../../assets/David Shahbazyan CV.pdf';
 
 
 function Footer() {

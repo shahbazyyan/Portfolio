@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/David Shahbazyan.pdf';
+import CV from '../../assets/David Shahbazyan CV.pdf';
 
 function Look() {
   return (
